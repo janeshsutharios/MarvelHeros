@@ -1,8 +1,4 @@
-//
-//  Marvel_CharactersTests.swift
-//  Marvel CharactersTests
-//
-//  Created by ABMULTIPLY on 13/05/19.
+
 //  Copyright © 2019 JaneshSuthar. All rights reserved.
 //
 

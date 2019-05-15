@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE5057C32289B81D00876A7F /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5057C22289B81D00876A7F /* Utility.swift */; };
+		FE5057C52289C07E00876A7F /* HeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5057C42289C07E00876A7F /* HeroListViewController.swift */; };
+		FE5057C72289C08800876A7F /* HeroDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5057C62289C08800876A7F /* HeroDetailsViewController.swift */; };
+		FE5057C92289C26100876A7F /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5057C82289C26100876A7F /* HeroTableViewCell.swift */; };
 		FE8EC2C922899738001B0951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8EC2C822899738001B0951 /* AppDelegate.swift */; };
-		FE8EC2CB22899738001B0951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8EC2CA22899738001B0951 /* ViewController.swift */; };
 		FE8EC2CE22899738001B0951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8EC2CC22899738001B0951 /* Main.storyboard */; };
 		FE8EC2D02289973A001B0951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8EC2CF2289973A001B0951 /* Assets.xcassets */; };
 		FE8EC2D32289973A001B0951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8EC2D12289973A001B0951 /* LaunchScreen.storyboard */; };
 		FE8EC2DE2289973A001B0951 /* Marvel_CharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8EC2DD2289973A001B0951 /* Marvel_CharactersTests.swift */; };
 		FE8EC2E92289973A001B0951 /* Marvel_CharactersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8EC2E82289973A001B0951 /* Marvel_CharactersUITests.swift */; };
+		FE8EC2FD2289981A001B0951 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8EC2FC2289981A001B0951 /* ViewModel.swift */; };
+		FE8EC3012289982B001B0951 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8EC3002289982B001B0951 /* WebService.swift */; };
+		FE8EC31022899E3C001B0951 /* CharacterListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8EC30622899E3B001B0951 /* CharacterListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE5057C22289B81D00876A7F /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		FE5057C42289C07E00876A7F /* HeroListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewController.swift; sourceTree = "<group>"; };
+		FE5057C62289C08800876A7F /* HeroDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsViewController.swift; sourceTree = "<group>"; };
+		FE5057C82289C26100876A7F /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
 		FE8EC2C522899738001B0951 /* Marvel Characters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marvel Characters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8EC2C822899738001B0951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE8EC2CA22899738001B0951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE8EC2CD22899738001B0951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE8EC2CF2289973A001B0951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE8EC2D22289973A001B0951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		FE8EC2E42289973A001B0951 /* Marvel CharactersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marvel CharactersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8EC2E82289973A001B0951 /* Marvel_CharactersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvel_CharactersUITests.swift; sourceTree = "<group>"; };
 		FE8EC2EA2289973A001B0951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8EC2FC2289981A001B0951 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FE8EC3002289982B001B0951 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		FE8EC30622899E3B001B0951 /* CharacterListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE5057C12289B80200876A7F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FE5057C22289B81D00876A7F /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		FE8EC2BC22899738001B0951 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +117,12 @@
 		FE8EC2C722899738001B0951 /* Marvel Characters */ = {
 			isa = PBXGroup;
 			children = (
+				FE5057C12289B80200876A7F /* Utility */,
+				FE8EC2F922899750001B0951 /* Model */,
+				FE8EC2F82289974E001B0951 /* View */,
+				FE8EC2F72289974C001B0951 /* ViewModel */,
+				FE8EC2F622899748001B0951 /* WebService */,
 				FE8EC2C822899738001B0951 /* AppDelegate.swift */,
-				FE8EC2CA22899738001B0951 /* ViewController.swift */,
 				FE8EC2CC22899738001B0951 /* Main.storyboard */,
 				FE8EC2CF2289973A001B0951 /* Assets.xcassets */,
 				FE8EC2D12289973A001B0951 /* LaunchScreen.storyboard */,
@@ -123,6 +147,40 @@
 				FE8EC2EA2289973A001B0951 /* Info.plist */,
 			);
 			path = "Marvel CharactersUITests";
+			sourceTree = "<group>";
+		};
+		FE8EC2F622899748001B0951 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				FE8EC3002289982B001B0951 /* WebService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		FE8EC2F72289974C001B0951 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FE8EC2FC2289981A001B0951 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FE8EC2F82289974E001B0951 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE5057C42289C07E00876A7F /* HeroListViewController.swift */,
+				FE5057C62289C08800876A7F /* HeroDetailsViewController.swift */,
+				FE5057C82289C26100876A7F /* HeroTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE8EC2F922899750001B0951 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE8EC30622899E3B001B0951 /* CharacterListModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE8EC2CB22899738001B0951 /* ViewController.swift in Sources */,
+				FE8EC3012289982B001B0951 /* WebService.swift in Sources */,
+				FE5057C32289B81D00876A7F /* Utility.swift in Sources */,
+				FE5057C52289C07E00876A7F /* HeroListViewController.swift in Sources */,
+				FE5057C92289C26100876A7F /* HeroTableViewCell.swift in Sources */,
+				FE8EC2FD2289981A001B0951 /* ViewModel.swift in Sources */,
+				FE5057C72289C08800876A7F /* HeroDetailsViewController.swift in Sources */,
+				FE8EC31022899E3C001B0951 /* CharacterListModel.swift in Sources */,
 				FE8EC2C922899738001B0951 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
