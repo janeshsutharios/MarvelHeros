@@ -62,8 +62,16 @@ extension HeroListViewController {
                                     let modelData = try JSONDecoder().decode(CharacterListModel.self, from: data)
                                     self.viewModel = ViewModel(model: modelData)
                                 } catch {
-                                    print("error--",error)
+                                    self.showAlert()
                                 }
         }
+    }
+    
+    func showAlert() {
+        let alert = UIAlertController(title: "Uh Oh", message: "Try again", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { _ in
+            self.callService()
+        }))
+        self.present(alert, animated: true, completion: nil)
     }
 }

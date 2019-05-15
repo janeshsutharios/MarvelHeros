@@ -90,4 +90,5 @@ extension UIViewController {
     func hideIndicator() {
         navigationItem.setRightBarButton(nil, animated: true)
     }
+    
 }
