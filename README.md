@@ -1,6 +1,6 @@
 # Marvel
 
-[![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=flat)](http://www.apple.com/ios/)  [![Swift Version](https://img.shields.io/badge/Swift-4.1-orange.svg)]() 
+[![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=flat)](http://www.apple.com/ios/)  [![Swift Version](https://img.shields.io/badge/Swift-4.1-orange.svg)](http://www.apple.com/ios/) 
 
 ## About
 
